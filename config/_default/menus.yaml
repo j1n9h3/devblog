@@ -1,0 +1,69 @@
+main:
+
+  # Example: parent item with dropdown submenu children
+  - name: 专栏
+    weight: 1
+    pageRef: /categories
+    params:
+      icon: categories
+
+  - name: 标签
+    weight: 10
+    pageRef: /tags
+    params:
+      icon: tags
+
+  - name: 时间线
+    pageRef: /timeline
+    weight: 100
+    params:
+      icon: chart
+
+# footer menu
+footer:
+  - name: Timeline
+    pageRef: /timeline
+    weight: 10
+    params:
+      icon: chart
+
+  - name: About
+    pageRef: /about
+    weight: 20
+    params:
+      icon: about
+
+  - name: Resume
+    pageRef: /resume
+    weight: 25
+    params:
+      icon: file-text
+
+  - name: RSS Feed
+    url: /index.xml
+    weight: 30
+    params:
+      icon: rss
+
+# footer social link
+social:
+  - name: GitHub
+    url: https://github.com/username
+    weight: 10
+    params:
+      icon: github
+  - name: Twitter
+    url: https://twitter.com/username
+    weight: 20
+    params:
+      icon: twitter
+  - name: LinkedIn
+    url: https://linkedin.com/in/username
+    weight: 30
+    params:
+      icon: linkedin
+  - name: Email
+    url: mailto:your.email@example.com
+    weight: 40
+    params:
+      icon: email
