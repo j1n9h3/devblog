@@ -2,11 +2,10 @@
 title: "Alpha3D v0.1.1"
 date: 2026-05-26
 draft: false
-description: ""
-tags: ["更新日志"]
+description: "采用 X-Macro 设计日志系统；实现相机移动"
+tags: ["图形引擎", "渲染", "摄像机"]
 categories: ["Alpha3D 更新日志"]
 ---
-
 
 ## 日志系统更新
 
@@ -78,7 +77,7 @@ private:
 右键按住时激活相机控制，WASD 移动相机，松开恢复正常鼠标
 
 
-<video src="https://zhjh-oss.oss-cn-beijing.aliyuncs.com/Alpha3D_01.mp4" controls width="460px"></video>
+{{< BILIBILI BV1AKGy6cEwe 1 >}}
 
 
 ```C++
@@ -160,3 +159,4 @@ void Camera::ProcessMouseMovement(GLFWwindow* window, double xpos, double ypos) 
     this->direction = glm::normalize(front);
 }
 ```
+
