@@ -1,8 +1,8 @@
 ---
 title: "Alpha3D v0.1.2"
-date: 2026-05-27
+date: 2026-05-27T15:00:00+08:00
 draft: false
-description: "修复 Window 与 Camera 争用 glfwSetWindowUserPointer 导致的回调冲突；屏蔽 Windows 输入法干扰"
+description: "修复争用共享指针导致的回调冲突；屏蔽 Windows 输入法干扰"
 tags: ["图形引擎", "渲染", "摄像机", "GLFW"]
 categories: ["Alpha3D 更新日志"]
 cover: https://zhjh-oss.oss-cn-beijing.aliyuncs.com/Alpha3D_v0_1_2.png

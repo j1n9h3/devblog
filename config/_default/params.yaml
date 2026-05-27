@@ -102,7 +102,7 @@ home:
   # Available sections: author-section, recent-posts, featured-projects, page-content
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
-    - author-section
+    # - author-section
     - page-content
     - recent-posts
     - featured-projects.html
